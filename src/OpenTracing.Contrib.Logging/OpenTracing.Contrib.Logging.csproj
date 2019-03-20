@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Description>OpenTraacing logger provider implementation for Microsoft.Extensions.Logging.</Description>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <NoWarn>$(NoWarn);CS1591</NoWarn>
+        <TargetVersion>2.2.0</TargetVersion>
+        <LangVersion>7.1</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="$(TargetVersion)" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="$(TargetVersion)" />
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="$(TargetVersion)" />
+        <PackageReference Include="OpenTracing" Version="0.12.0" />
+    </ItemGroup>
+
+</Project>
