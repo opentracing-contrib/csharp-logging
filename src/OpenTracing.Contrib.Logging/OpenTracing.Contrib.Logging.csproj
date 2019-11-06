@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <Description>OpenTraacing logger provider implementation for Microsoft.Extensions.Logging.</Description>
+        <Description>OpenTracing logger provider implementation for Microsoft.Extensions.Logging.</Description>
         <TargetFramework>netstandard2.0</TargetFramework>
         <NoWarn>$(NoWarn);CS1591</NoWarn>
         <TargetVersion>2.2.0</TargetVersion>
